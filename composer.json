@@ -1,12 +1,12 @@
 {
     "name": "not-empty/database-cache-php-lib",
     "description": "PHP library for put all database result in cache",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "type": "library",
     "license": "GPL-3.0-only",
     "require": {
-        "php": "^7.1",
-        "predis/predis": "^1.1"
+        "php": "^7.2",
+        "predis/predis": "^2.2"
     },
     "authors": [
         {
