@@ -1,11 +1,11 @@
 {
     "name": "not-empty/database-cache-php-lib",
     "description": "PHP library for put all database result in cache",
-    "version": "6.0.0",
+    "version": "7.0.0",
     "type": "library",
     "license": "GPL-3.0-only",
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "predis/predis": "^2.2"
     },
     "authors": [
@@ -47,6 +47,7 @@
         "phpunit/phpunit": "^9.6",
         "mockery/mockery": "^1.6",
         "squizlabs/php_codesniffer": "^3.7",
-        "phpmd/phpmd": "^2.14"
+        "phpmd/phpmd": "^2.14",
+        "pdepend/pdepend": "2.15.*"
     }
 }
