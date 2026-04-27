@@ -1,0 +1,15 @@
+services:
+  database-cache-php-lib:
+    build:
+      context: ./
+      dockerfile: ./contrib/Dockerfile
+    container_name: database-cache-php-lib
+    volumes:
+      - ./:/var/www/html
+    command: tail -f /dev/null
+    depends_on:
+      - redis
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
